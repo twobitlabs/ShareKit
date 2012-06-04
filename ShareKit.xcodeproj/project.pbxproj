@@ -52,7 +52,6 @@
 		7A0F91F3156BA2A0009CB40A /* OAToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536A211DBE3B9004A1712 /* OAToken.m */; };
 		7A0F91F4156BA2A0009CB40A /* SHKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536A511DBE3B9004A1712 /* SHKRequest.m */; };
 		7A0F91F5156BA2A0009CB40A /* SHKXMLResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB5FAB414D30AC700795BA9 /* SHKXMLResponseParser.m */; };
-		7A0F91F6156BA2A0009CB40A /* SHKPrint.m in Sources */ = {isa = PBXBuildFile; fileRef = BA465F1E14CC3C5A00B52394 /* SHKPrint.m */; };
 		7A0F91F7156BA2A0009CB40A /* SHKLogout.m in Sources */ = {isa = PBXBuildFile; fileRef = E68738BF1416795C00D8C3DD /* SHKLogout.m */; };
 		7A0F91F8156BA2A0009CB40A /* SHKCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536B911DBE3B9004A1712 /* SHKCopy.m */; };
 		7A0F91F9156BA2A0009CB40A /* SHKMail.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536BC11DBE3B9004A1712 /* SHKMail.m */; };
@@ -170,7 +169,6 @@
 		7AB534EF1552BE7D00171BCE /* OAToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536A211DBE3B9004A1712 /* OAToken.m */; };
 		7AB534F21552BE7D00171BCE /* SHKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536A511DBE3B9004A1712 /* SHKRequest.m */; };
 		7AB534F41552BE7D00171BCE /* SHKXMLResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB5FAB414D30AC700795BA9 /* SHKXMLResponseParser.m */; };
-		7AB534F61552BE7D00171BCE /* SHKPrint.m in Sources */ = {isa = PBXBuildFile; fileRef = BA465F1E14CC3C5A00B52394 /* SHKPrint.m */; };
 		7AB534F81552BE7D00171BCE /* SHKLogout.m in Sources */ = {isa = PBXBuildFile; fileRef = E68738BF1416795C00D8C3DD /* SHKLogout.m */; };
 		7AB534FA1552BE7D00171BCE /* SHKCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536B911DBE3B9004A1712 /* SHKCopy.m */; };
 		7AB534FC1552BE7D00171BCE /* SHKMail.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536BC11DBE3B9004A1712 /* SHKMail.m */; };
@@ -1652,7 +1650,6 @@
 				7A0F91F3156BA2A0009CB40A /* OAToken.m in Sources */,
 				7A0F91F4156BA2A0009CB40A /* SHKRequest.m in Sources */,
 				7A0F91F5156BA2A0009CB40A /* SHKXMLResponseParser.m in Sources */,
-				7A0F91F6156BA2A0009CB40A /* SHKPrint.m in Sources */,
 				7A0F91F7156BA2A0009CB40A /* SHKLogout.m in Sources */,
 				7A0F91F8156BA2A0009CB40A /* SHKCopy.m in Sources */,
 				7A0F91F9156BA2A0009CB40A /* SHKMail.m in Sources */,
@@ -1750,7 +1747,6 @@
 				7AB534EF1552BE7D00171BCE /* OAToken.m in Sources */,
 				7AB534F21552BE7D00171BCE /* SHKRequest.m in Sources */,
 				7AB534F41552BE7D00171BCE /* SHKXMLResponseParser.m in Sources */,
-				7AB534F61552BE7D00171BCE /* SHKPrint.m in Sources */,
 				7AB534F81552BE7D00171BCE /* SHKLogout.m in Sources */,
 				7AB534FA1552BE7D00171BCE /* SHKCopy.m in Sources */,
 				7AB534FC1552BE7D00171BCE /* SHKMail.m in Sources */,
