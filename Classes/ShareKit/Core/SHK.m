@@ -798,6 +798,7 @@ NSString* SHKLocalizedString(NSString* key, ...)
 
 - (BOOL)addSkipBackupAttributeToItemAtURL:(NSURL *)URL
 {
+#ifdef ZXCXCCXXZCCXZC
     const char* filePath = [[URL path] fileSystemRepresentation];
     const char* attrName = "com.apple.MobileBackup";
     if (&NSURLIsExcludedFromBackupKey == nil) {
@@ -820,6 +821,9 @@ NSString* SHKLocalizedString(NSString* key, ...)
         // Set the new key
         return [URL setResourceValue:[NSNumber numberWithBool:YES] forKey:NSURLIsExcludedFromBackupKey error:nil];
     }
+#else
+    return YES;
+#endif
 }
 
 @end
