@@ -798,7 +798,7 @@ NSString* SHKLocalizedString(NSString* key, ...)
 
 - (BOOL)addSkipBackupAttributeToItemAtURL:(NSURL *)URL
 {
-#ifdef ZXCXCCXXZCCXZC
+#ifdef DEPLOY_TARGET_IS_5_1_OR_LATER
     const char* filePath = [[URL path] fileSystemRepresentation];
     const char* attrName = "com.apple.MobileBackup";
     if (&NSURLIsExcludedFromBackupKey == nil) {
